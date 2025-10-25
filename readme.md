@@ -1,4 +1,4 @@
-# Undertál — MP3 merge & optional FTP upload
+# M3U_FTP — MP3 merge & optional FTP upload
 
 Short and simple: this tool merges MP3 files by album into single MP3s, creates .m3u playlists, and can upload the results to an FTP server.
 
@@ -16,4 +16,5 @@ What the script does
 - Merges the files to a .m3u file
 - Attempts to upload the .m3u and the merged .mp3 file (if ftp credidentials are correct)
     If the attempt fails, all of the files will be in "/ready" folder
+
 - Asks to keep or delete ftp credidentials for futher use
